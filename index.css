@@ -1,0 +1,342 @@
+html {
+    min-width: 320px;
+}
+
+body {
+    background-color: #23272A;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+
+    min-height: 90vh;
+    max-width: 1200px;
+}
+
+
+
+/* Nav */
+header {
+    background-color: #23272A;
+}
+
+
+nav {
+    /* margin: 5px 18vw 0 18vw; */
+    /* padding-top: 2px; */
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+    background-color: #23272A;
+    width: 100%;
+    padding: 10px 0;
+    
+    /* box-sizing: border-box; */
+    
+
+    /* vertical-align: bottom;
+    line-height: 35px;
+    height: 35px; */
+
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none;
+    /* margin: 0 0 0 60%; */
+    margin: 0;
+    padding: 0;
+    
+
+   
+
+}
+nav ul li {
+    display: inline;
+    margin: 0 0px 0 0;
+    
+    
+    
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 4px 8px 2px 8px;
+}
+
+nav ul li a:hover {
+    
+    background-color: white;
+    color: black;
+}
+
+
+
+.active {
+    border-bottom: 4px solid white;
+    padding: 4px 8px 2px 8px;
+}
+
+
+#logo {
+    font-weight: 700;
+    font-size: 22px;
+   
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    max-width: 655px;
+    margin: 15vh auto 0 auto;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+main img {
+    border-radius: 33px;
+}
+
+a {
+   color: white;
+}
+
+p {
+    font-weight: 400;
+}
+
+.li-heading {
+    margin-left: -40px;
+}
+
+
+hr {
+    margin-top: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    
+}
+
+h3 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* About Section */
+#about h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+#about h3 {
+    margin: 2rem 0 0 0;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+#about #skills-subheading {
+    /* text-align: center; */
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+}
+
+#about ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+
+
+
+
+
+/* Portfolio section */
+#portfolio {
+    margin-top: 150px;
+}
+
+#portfolio img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.portfolio-li-btn {
+    display: flex;
+    margin-top: 1rem;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-btn , .project-btn {
+    /* width: 71px;
+    height: 27px; */
+    text-align: center;
+    margin: 0 2px;
+    border: none;
+    height: 35px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    
+}
+.btn-container {
+    margin-right: auto;
+   
+    
+}
+.github-btn {
+    margin-right: 80px;
+    background-color:#00a591;
+}
+.project-btn {
+    background-color: #ff3e00;
+}
+
+
+
+/* Contact Section */
+#contact {
+    max-width: 655px;
+    margin: 150px auto 50px auto;
+    min-height: 200px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#fcc-icon {
+    filter: brightness(0.3);
+}
+
+#email-txt {
+    display: none;
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    
+}
+
+#icon-container div {
+   cursor: pointer;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+    nav {
+        box-shadow: 0 4px 2px -2px rgba(0,0,0,0.3);
+    }
+
+    nav #logo {
+        margin-left: 8px;
+    }
+    
+}
+
+@media (max-width: 712px) {
+    body {
+        margin: 0 2vw 0 2vw;
+    }
+
+    nav {
+        width: 95%;
+    }
+
+
+    .portfolio-li-btn {
+        justify-content: space-around;
+    }
+
+    .portfolio-ul li {
+        margin-left: -15px;
+    }
+
+    .github-btn {
+        margin-right: auto;
+    }
+    
+    #btn-container {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    
+}
+
+@media (max-width: 442px) {
+    nav {
+        min-width: 310px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    nav ul li a {
+        padding: 4px 4px 2px 4px;
+    }
+
+    #logo {
+        font-size: 18px;
+    }
+}

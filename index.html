@@ -1,0 +1,201 @@
+<html>
+
+<head>
+    <script src="index.js" async></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="navbar">
+
+            <span id="logo">Russell Davis</span>
+
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Background</h1>
+            <hr>
+            <p>Hi there! My name is Russell and I'm a junior front-end developer from Melbourne. </p>
+
+            <p> I've been playing around with HTML, CSS, & a little bit of JavaScript since 2017. However, over the past
+                year I've taken a deeper dive into a number of technologies and languages, so that I can
+                work in a more professional capacity. (see below) </p>
+
+            <h3>Technical Skills:</h3>
+            <p id="skills-subheading">Rated from 1 (least proficient) to 4 (most proficient)</p>
+            <div id="skills-ul-container">
+            <ul id="skills-ul">
+                <li>JavaScript ✅✅✅</li>
+                <li>HTML ✅✅✅✅</li>
+                <li>CSS ✅✅✅</li>
+                <li>SaSS ✅</li>
+                <li>Figma to design UI ✅✅</li>
+                <li>React ✅✅</li>
+                <li>Git & Github ✅✅</li>
+                <li>SQL Database Design & PostgreSQL ✅</li>
+                <li>Node JS & Express ✅</li>
+            </ul>
+            </div>
+            <p> I started off with platforms like CodeCademy and FreeCodeCamp and used that as a springboard to learning via
+                building projects, documentation, blog posts, tutorials & a healthy dose of StackOverflow 😃.
+                I'm continually amazed by the sheer number of people who sacrifice their time and energy in order to share their
+                knowledge with others & I hope I can pay it forward by contributing my own expertise, once I gain the necessary
+                experience to do so.
+            </p>
+            <p>
+                I feel quite fortunate that I'm living in a time where I'm able to work as a developer. Web development allows me to
+                indulge in continuous learning and hone a skill that can be both creative and used to solve real, technical problems
+                for others.
+                I've primarily focused on learning vanilla JS, HTML, & CSS, in the hopes that I can gain a solid first-principles
+                understanding. Frameworks and libraries are incredibly useful and efficient, however, they tend to abstract away
+                some of the underlying complexity. As the web development space is one of constant change, I hope that the such an
+                understanding can help me to better adapt to whatever the hot new framework of a given time is, and, in the long-term, make
+                me a better developer.
+            </p>
+
+            <p>Thanks for taking the time to view my page and feel free to check out some of my projects, or contact me, down below.</p>
+        </section>
+
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <hr>
+            <section>
+                <h3>Cleaning Business Landing Page</h3>
+                <img src="cleaning-site.png" width="600" alt="screenshot of landing page" />
+
+                
+                <div class="portfolio-li-btn">
+                    <ul class="portfolio-ul">
+                        <strong class="li-heading">Technologies used:</strong>
+                        <li>React</li>
+                        <li>Ruby on Rails</li>
+                        <li>HTML5</li>
+                    </ul>
+
+                    <div id="btn-container">
+                        <button class="project-btn">View project</button>
+                        <button class="github-btn">Github repo</button>
+                    </div>
+                </div>
+
+               
+
+                <p> I created this site to serve as a generic landing page for a cleaning business. By keeping the UI
+                    minimal and clutter-free customers can quickly get an idea of who the business is, how they can
+                    be contacted, as well as where they're located (via a Google Maps embed). </p>
+                <p> I also made sure to make the site responsive so that it can be viewed on a wide variety of devices and screen sizes. </p>
+
+            </section>
+
+
+            <section>
+                <h3>Edison Tribute Page</h3>
+                <img src="edison-tribute-page.png" width="600" alt="screenshot of edison tribute page" />
+
+                
+                <div class="portfolio-li-btn">
+                    <ul class="portfolio-ul">
+                        <strong class="li-heading">Technologies used:</strong>
+                        <li>React</li>
+                        <li>Ruby on Rails</li>
+                        <li>HTML5</li>
+                    </ul>
+
+                    <div id="btn-container">
+                        <button class="project-btn">View project</button>
+                        <button class="github-btn">Github repo</button>
+                    </div>
+                </div>
+
+                
+
+                <p> This project was a modified version of the FreeCodeCamp project for a Norman Barlaug tribute page, which can be found <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank">here.</a> </p>
+                <p>By modifying the subject of the tribute page, I was prevented from just passively copying and pasting the content from the
+                    FreeCodeCamp sample project. Instead, I had a number of additional considerations, like what resolution the Edison cover photo
+                    could be (while maintaining responsiveness) as well as any possible modifications to layout, given that the content would differ from the sample project. </p>
+
+            </section>
+
+            <section>
+                <h3>React Weather App</h3>
+                <img src="weather-app.png" width="600" alt="screenshot of weather app" />
+
+                
+                <div class="portfolio-li-btn">
+                    <ul class="portfolio-ul">
+                        <strong class="li-heading">Technologies used:</strong>
+                        <li>React</li>
+                        <li>Ruby on Rails</li>
+                        <li>HTML5</li>
+                    </ul>
+
+                    <div id="btn-container">
+                        <button class="project-btn">View project</button>
+                        <button class="github-btn">Github repo</button>
+                    </div>
+                </div>
+
+                
+
+                <p>This project allowed me to create a UI via Figma, use create-react-app & fetch data from the OpenWeatherMap's REST API, via an API key. </p>
+                <p>By implementing the application in React I was able to use functional components and React Hooks for passing props and fetching the weather data & icons. </p>
+
+            </section>
+        </section>
+    </main>
+
+
+    <footer id="contact">
+        <h2>Contact</h2>
+        <hr>
+        <div id="icon-container">
+            <div><img src="email-icon.png" width="80" alt="email icon" onclick="showEmail()"> </div>
+            <div> <img id="fcc-icon" src="fcc-icon.png" width="80" alt="FreeCodeCamp icon"> </div>
+            <div><a href="https://github.com/russd932" target="_blank"><img src="github-icon.png" width="70" alt="Github icon"></a></div>
+        </div>
+        <div id="email-txt"><strong>Email:</strong> russell.davis932@gmail.com</div>
+    </footer>
+
+    <script>
+        let prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            let currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+        let emailTxt = document.getElementById("email-txt");
+
+        function showEmail() {
+            console.log("test");
+            if(emailTxt.style.display == "") emailTxt.style.display = "block";
+            else emailTxt.style.display = "";
+            
+        }
+    </script>
+
+</body>
+
+</html>
