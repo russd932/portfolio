@@ -206,14 +206,12 @@ h4 {
 .portfolio-li-btn {
     display: flex;
     margin-top: 1rem;
-    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
 }
 
 .github-btn , .project-btn {
-    /* width: 71px;
-    height: 27px; */
+    cursor: pointer;
     text-align: center;
     margin: 0 2px;
     border: none;
@@ -221,12 +219,18 @@ h4 {
     border-radius: 15px;
     color: white;
     font-weight: bold;
-    
 }
+
+/* .github-btn > a, .project-btn > a {
+    text-decoration: none;
+    display: inline-block;
+    height: 35px;
+    padding: 2px 1px; 
+    text-align: center;
+} */
+
 .btn-container {
     margin-right: auto;
-   
-    
 }
 .github-btn {
     margin-right: 80px;
